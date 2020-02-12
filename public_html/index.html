@@ -1,74 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Bootstrap Theme Simply Me</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="CSS/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    </head>
+<head>
+    <title>Bootstrap Theme Simply Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <body>
+</head>
+
+<body>
 
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">CODE</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">&ltdiv&gt</a></li>
-                        <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">&ltspan&gt</a></li>
-                        <li><a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">Epic code</a></li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">CODE</a>
             </div>
-        </nav>
-
-        <div class="container-fluid bg-1 text-center">
-            <h3>&ltdiv&gt</h3>
-            <img src="images/bird.jpg" class="img-circle" alt="Bird">
-            <h3>I'm an adventurer</h3>
-        </div>
-
-        <div class="container-fluid bg-2 text-center">
-            <h3>&ltspan&gt</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-            <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg" class="btn btn-default btn-lg">
-                <span class="glyphicon glyphicon-search"></span> Search
-            </a>
-        </div>
-
-        <div class="container-fluid bg-3 text-center">
-            <h3>Epic code</h3>
-            <div class="row">
-                <div class="col-sm-4">
-                    <p>Lorem ipsum..</p>
-                    <img src="images/birds1.jpg" class="img-responsive " style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p>Lorem ipsum..</p>
-                    <img src="images/birds2.jpg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="col-sm-4">
-                    <p>Lorem ipsum..</p>
-                    <img src="images/birds3.jpg" class="img-responsive " style="width:100%" alt="Image">
-                </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#div">&ltdiv&gt</a></li>
+                    <li><a href="#span">&ltspan&gt</a></li>
+                    <li><a href="#epic">Epic code</a></li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <footer class="container-fluid bg-4 text-center">
-            <p>Bootstrap Theme Made By <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">www.w3schools.com</a></p>
-        </footer>
+    <div class="container-fluid bg-1 text-center" id="div">
+        <h1>&ltdiv&gt</h1>
+        <div class="container-cont">
+            <img src="images/div.png" class="" style="width:50%" alt="div">
+            <h3>The div tag defines a division or a section in an HTML document. The div element is often used as a
+                container for other HTML elements to style them with CSS or to perform certain tasks with JavaScript.
+            </h3>
+        </div>
+    </div>
 
-    </body>
+    <div class="container-fluid bg-2 text-center" id="span">
+        <h1>&ltspan&gt</h1>
+        <img src="images/span.png" style="width:50%" class="" alt="span">
+        <h4>The HTML span tag is used for grouping and applying styles to inline elements. There is a difference
+                between the span tag and the div tag. The span tag is used with inline elements whilst the div tag is
+                used with block-level content.</h4>
+
+        <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg" class="btn btn-default btn-lg">
+            <span class=" "></span> Cool
+        </a>
+    </div>
+
+    <div class="container-fluid bg-3 text-center" id="epic">
+        <h1>Epic code</h1>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>Laylout</h2>
+                <h4>
+                    This is how a classic layout would look like
+                </h4>
+                <img src="images/epic.gif" class="img-responsive " style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <h2>JavaScript</h2>
+                <h4>
+                    Javascript is the foundation for animations and functionality
+                </h4>
+                <img src="images/js.jpg" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <h2>CSS</h2>
+                <h4>
+                    CSS organises the layout and makes it look readable and comprehensible
+                </h4>
+                <img src="images/css.jpeg" class="img-responsive " style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>Bootstrap Theme Made By <a
+                href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">www.w3schools.com</a></p>
+    </footer>
+
+</body>

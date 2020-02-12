@@ -19,6 +19,9 @@
     padding-bottom: 70px;
 }
 
+h3 {
+    padding:0 10%;
+}
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
