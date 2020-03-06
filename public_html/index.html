@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg">CODE</a>
+                <a class="navbar-brand" href="https://geekprank.com/matrix-code-rain/">CODE</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -49,13 +49,26 @@
         <h1>&ltspan&gt</h1>
         <img src="images/span.png" style="width:50%" class="" alt="span">
         <h4>The HTML span tag is used for grouping and applying styles to inline elements. There is a difference
-                between the span tag and the div tag. The span tag is used with inline elements whilst the div tag is
-                used with block-level content.</h4>
+            between the span tag and the div tag. The span tag is used with inline elements whilst the div tag is
+            used with block-level content.</h4>
 
-        <a href="https://i.kym-cdn.com/photos/images/newsfeed/001/365/818/183.jpg" class="btn btn-default btn-lg">
-            <span class=" "></span> Cool
+        <a onclick="myFunction(this,'blue')" class="btn btn-default btn-lg">
+            Cool
         </a>
+        <script>
+            function myFunction(elmnt, clr) {
+                elmnt.style.color = clr;
+                elmnt.innerHTML = "I have been clicked";
+            }
+        </script>
     </div>
+    <script>
+        document.getElementById("img1").addEventListener("scroll", scroll);
+
+        function scroll() {
+            alert("wow");
+        }
+    </script>
 
     <div class="container-fluid bg-3 text-center" id="epic">
         <h1>Epic code</h1>
