@@ -29,7 +29,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#div">&ltdiv&gt</a></li>
                     <li><a href="#span">&ltspan&gt</a></li>
-                    <li><a href="#epic">Epic code</a></li>
+                    <li><a class="rainbow-text"href="#epic">Epic code</a></li>
                 </ul>
             </div>
         </div>
@@ -53,42 +53,36 @@
             used with block-level content.</h4>
 
         <a onclick="myFunction(this,'blue')" class="btn btn-default btn-lg">
-            Cool
+            Click me!
         </a>
         <script>
             function myFunction(elmnt, clr) {
                 elmnt.style.color = clr;
                 elmnt.innerHTML = "I have been clicked";
+                alert("You just clicked me");
             }
         </script>
     </div>
-    <script>
-        document.getElementById("img1").addEventListener("scroll", scroll);
-
-        function scroll() {
-            alert("wow");
-        }
-    </script>
 
     <div class="container-fluid bg-3 text-center" id="epic">
-        <h1>Epic code</h1>
+        <h1 class="rainbow-text">Epic code</h1>
         <div class="row">
             <div class="col-sm-4">
-                <h2>Laylout</h2>
+                <h2 class="rainbow-text">Laylout</h2>
                 <h4>
                     This is how a classic layout would look like
                 </h4>
                 <img src="images/epic.gif" class="img-responsive " style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <h2>JavaScript</h2>
+                <h2 class="rainbow-text">JavaScript</h2>
                 <h4>
                     Javascript is the foundation for animations and functionality
                 </h4>
                 <img src="images/js.jpg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <h2>CSS</h2>
+                <h2 class="rainbow-text">CSS</h2>
                 <h4>
                     CSS organises the layout and makes it look readable and comprehensible
                 </h4>
